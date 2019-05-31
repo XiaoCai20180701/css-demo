@@ -1,0 +1,122 @@
+@-webkit-keyframes shooting {
+    0% { transform: translateX(0)}
+    100% { transform: translateX(250px)}
+}
+@keyframes shooting {
+    0% { transform: translateX(0)}
+    100% { transform: translateX(250px)}
+}
+@-webkit-keyframes tail {
+    0% {
+        width: 0;
+    }
+    30% {
+        width: 100px;
+    }
+    100% {
+        width: 0;
+    }
+}
+@keyframes tail {
+    0% {
+        width: 0;
+    }
+    30% {
+        width: 100px;
+    }
+    100% {
+        width: 0;
+    }
+}
+@-webkit-keyframes shining {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 30px;
+    }
+    100% {
+        width: 0;
+    }
+}
+@keyframes shining {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 30px;
+    }
+    100% {
+        width: 0;
+    }
+}
+@-webkit-keyframes sky {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    100% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg);
+    }
+}
+@keyframes sky {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    100% {
+        -webkit-transform: rotate(405deg);
+        transform: rotate(405deg);
+    }
+}
+/**
+* filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
+**/
+@keyframes move-smoke {
+    0% {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+    50% {
+        -webkit-filter: blur(0.2rem);
+        filter: blur(0.2rem);
+        opacity: 0.6;
+        transform: translate(0, -3rem) scale(2);
+    }
+    100% {
+        -webkit-filter: blur(0.3rem);
+        filter: blur(0.3rem);
+        opacity: 0;
+        transform: translate(2.5rem, -6rem) scale(3);
+    }
+}
+@keyframes train-rotate {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes body-upDown {
+    100% {
+        transform: translate(0,-0.2rem);
+    }
+}
+@keyframes train-up-down {
+    0%, 100% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, -0.2rem);
+    }
+}
+@keyframes wheel-joint {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes move-train {
+    100% {
+        transform: translateX(-154rem);
+    }
+}
